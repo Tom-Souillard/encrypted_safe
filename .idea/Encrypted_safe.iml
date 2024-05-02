@@ -13,4 +13,12 @@
     <option name="format" value="GOOGLE" />
     <option name="myDocStringFormat" value="Google" />
   </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/src/encrypted_safe/utils" />
+        <option value="$MODULE_DIR$/tests/core" />
+      </list>
+    </option>
+  </component>
 </module>
