@@ -6,11 +6,19 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.12 (encrypted_safe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="GOOGLE" />
     <option name="myDocStringFormat" value="Google" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/src/encrypted_safe/utils" />
+        <option value="$MODULE_DIR$/tests/core" />
+      </list>
+    </option>
   </component>
 </module>
