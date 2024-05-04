@@ -1,19 +1,28 @@
 ## English
 ___
-# encrypted_safe
+# Encrypted Safe
 
-**encrypted_safe** is a comprehensive password management application that provides robust security features such as custom encryption algorithms, user account management via a Tkinter interface, and file operations within the Windows environment. It ensures high-security standards and comes equipped with detailed activity logging capabilities to maintain a secure and reliable user experience.
+Secure your sensitive data with `Encrypted Safe`, an intuitive encryption tool designed to protect personal and commercial information through robust file and folder encryption.
 
-### Features
+## Key Features
 
-- **Custom encryption**: Utilizes a unique encryption mechanism for password security.
-- **User Account Management**: Allows users to create, manage, and authenticate user accounts.
-- **File Management**: Enables manipulation of files and directories on Windows.
-- **Logging**: Tracks user activities with detailed logs for auditing and security purposes.
+- **Data Encryption**: Encrypt files and folders with a strong encryption key.
+- **Secure Data Transfer**: Encrypt files before sending them electronically, ensuring that only the intended recipient can decrypt them.
+- **Long-term Secure Storage**: Encrypt entire volumes or large datasets for secure long-term storage.
+- **Secure Data Deletion**: Securely delete files to prevent potential recovery.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or later
+- PyQt5
+- Cryptography library
 
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Tom-Souillard/encrypted_safe.git
    ```
@@ -30,6 +39,7 @@ ___
    ```bash
    python main.py
    ```
+   Follow the on-screen instructions to select files for encryption or decryption.
 
 ### Docker Usage
 
@@ -42,25 +52,37 @@ docker run -d -p 5000:5000 encrypted_safe
 
 ### Contributing
 
-Contributions are welcome! Please refer to CONTRIBUTING.md for more information on how to contribute to this project.
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ### License
-This project is licensed under the Apache License - see the LICENSE.md file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+
+### Contact
+
+If you have any questions, please open an issue in the GitHub repository.
 
 ---
 
 ## Français
 
-# encrypted_safe
+# EncryptedSafe
 
-**encrypted_safe** est une application complète de gestion de mots de passe offrant de robustes fonctionnalités de sécurité telles que des algorithmes de chiffrement personnalisés, la gestion des comptes utilisateurs via une interface Tkinter, et la manipulation de fichiers dans l'environnement Windows. Elle garantit des normes de sécurité élevées et est équipée de capacités détaillées de journalisation des activités pour maintenir une expérience utilisateur sécurisée et fiable.
+EncryptedSafe est un outil robuste de chiffrement de fichiers et de dossiers, conçu pour fournir aux particuliers et aux petites entreprises des méthodes sécurisées pour protéger, transférer et stocker des données sensibles. Ce projet utilise Python et PyQt pour offrir une expérience utilisateur conviviale sur plusieurs plateformes.
 
-### Fonctionnalités
+## Fonctionnalités Clés
 
-- **Chiffrement personnalisé** : Utilise un mécanisme de chiffrement unique pour la sécurité des mots de passe.
-- **Gestion des comptes utilisateurs** : Permet aux utilisateurs de créer, gérer et authentifier les comptes.
-- **Gestion de fichiers** : Permet la manipulation des fichiers et répertoires sous Windows.
-- **Journalisation** : Suit les activités des utilisateurs avec des logs détaillés pour l'audit et la sécurité.
+- **Chiffrement de données** : Chiffrement simple et sécurisé de fichiers et dossiers sélectionnés avec des clés de chiffrement fortes.
+- **Transfert sécurisé de données** : Intègre une fonction d'exportation qui chiffre les fichiers avant leur envoi, assurant que seuls les destinataires prévus puissent les déchiffrer.
+- **Stockage sécurisé à long terme** : Chiffre des volumes entiers ou de grands ensembles de données avec des fonctionnalités de gestion de clés pour une sécurité prolongée.
+- **Suppression sécurisée de données** : Intègre une fonction de suppression sécurisée pour effacer de manière irréversible les fichiers après chiffrement ou lorsqu'ils ne sont plus nécessaires.
+
+## Pour Commencer
+
+### Prérequis
+
+- Python 3.8+
+- PyQt5
+- Bibliothèque Cryptography
 
 ### Installation
 
@@ -81,6 +103,7 @@ This project is licensed under the Apache License - see the LICENSE.md file for 
    ```bash
    python main.py
    ```
+   Suivez les instructions à l'écran pour sélectionner les fichiers à chiffrer ou déchiffrer.
 
 ### Utilisation avec Docker
 
@@ -93,7 +116,11 @@ docker run -d -p 5000:5000 encrypted_safe
 
 ### Contribution
 
-Les contributions sont les bienvenues ! Veuillez consulter le fichier CONTRIBUTING.md pour plus d'informations sur comment contribuer à ce projet.
+Les contributions sont les bienvenues ! Pour les changements importants, veuillez ouvrir une issue d'abord pour discuter de ce que vous aimeriez modifier.
 
 ### Licence
-Ce projet est sous Apache License - voir le fichier LICENSE.md pour les détails.
+Ce projet est sous licence Apache Licence 2.0 - voir le fichier LICENSE pour plus de détails.
+
+### Contact
+
+Si vous avez des questions, veuillez ouvrir une issue dans le dépôt GitHub.
